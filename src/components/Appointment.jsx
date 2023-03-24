@@ -7,7 +7,7 @@ const Appointment = () => {
   return (
     <section className='bg-yellow-secondary py-12 lg:pb-12 lg:mt-32 relative min-h-[584px]'>
       <div className='container mx-auto'>
-        <div className='lg:absolute lg:-top-32 lg:left-0 lg:right-0'>
+        <div className='lg:-top-32 lg:left-0 lg:right-0'>
           {/* image */}
           <div className='hidden w-full max-w-[790px] mx-auto lg:flex justify-center'>
             <img src={DogImg} alt='' />
